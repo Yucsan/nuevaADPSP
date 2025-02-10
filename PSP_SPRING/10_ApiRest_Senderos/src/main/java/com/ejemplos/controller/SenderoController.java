@@ -18,8 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.ejemplos.DTO.CreateSenderoDTO;
 import com.ejemplos.DTO.SenderoDTO;
 import com.ejemplos.DTO.SenderoDTOConverter;
-import com.ejemplos.modelo.Municipio;
-import com.ejemplos.modelo.MunicipioRepositorio;
 import com.ejemplos.modelo.Sendero;
 import com.ejemplos.modelo.SenderoRepositorio;
 
@@ -34,9 +32,6 @@ public class SenderoController {
 	private final SenderoRepositorio senderoRepositorio;  // con autowired ya no 
 	
 	@Autowired
-	private final MunicipioRepositorio municipioRepositorio;
-	
-	@Autowired
 	private SenderoDTOConverter senderoDTOConverter;
 	
 	@GetMapping("/sendero")  
@@ -46,21 +41,10 @@ public class SenderoController {
 		if(result.isEmpty()) {
 			return ResponseEntity.notFound().build();
 		}else {
-			List<SenderoDTO> dtoList = result.stream() // muestra lo que se desea mostrar
+			List<SenderoDTO> dtoList = result.stream()
 			.map(senderoDTOConverter::convertirADTO)
 			.collect(Collectors.toList());
 			return ResponseEntity.ok(dtoList);
-		}
-	}
-	
-	@GetMapping("/municipio")  
-	public ResponseEntity<?> obtenerTodosMunic(){
-		List<Municipio>result = municipioRepositorio.findAll();
-			
-		if(result.isEmpty()) {
-			return ResponseEntity.notFound().build();
-		}else {
-			return ResponseEntity.ok(result);
 		}
 	}
 		
