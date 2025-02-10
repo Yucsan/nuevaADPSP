@@ -1,0 +1,1 @@
+nombre: juan edad 18nombre: fernando edad 20nombre: fernando edad 15nombre: fernando edad 25nombre: fernando edad 20nombre: FERNANDO edad 20nombre: aNA edad 19

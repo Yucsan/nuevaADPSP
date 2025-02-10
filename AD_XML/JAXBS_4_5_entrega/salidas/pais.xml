@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pais importancia="30">
+    <Pais_Capital>Lima</Pais_Capital>
+    <continente>Sudamerica</continente>
+    <Pais_censo>2025-01-28</Pais_censo>
+    <habitantes>25000000</habitantes>
+    <Pais_Nombre>Perú</Pais_Nombre>
+</pais>

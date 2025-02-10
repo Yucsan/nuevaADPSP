@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Paises>
+    <Pais>
+        <capital>Madrid</capital>
+        <continente>Europa</continente>
+        <fechaCenso>1912-12-12</fechaCenso>
+        <habitantes>700000</habitantes>
+        <importancia>1</importancia>
+        <nombre>España</nombre>
+    </Pais>
+    <Pais>
+        <capital>Berlin</capital>
+        <continente>Europa</continente>
+        <fechaCenso>1962-12-12</fechaCenso>
+        <habitantes>600000</habitantes>
+        <importancia>1</importancia>
+        <nombre>Alemania</nombre>
+    </Pais>
+    <Pais>
+        <capital>Paris</capital>
+        <continente>Europa</continente>
+        <fechaCenso>1999-10-22</fechaCenso>
+        <habitantes>560000</habitantes>
+        <importancia>1</importancia>
+        <nombre>Francia</nombre>
+    </Pais>
+    <Pais>
+        <capital>Roma</capital>
+        <continente>Europa</continente>
+        <fechaCenso>1998-11-12</fechaCenso>
+        <habitantes>120000</habitantes>
+        <importancia>1</importancia>
+        <nombre>Italia</nombre>
+    </Pais>
+</Paises>

@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+/home/fernando/CURSOS/Comparte/Fernando Proyectos/PSP_Sockets/.metadata/.plugins/org.eclipse.jdt.core
+2707147273.index
+552776742.index
+2566878161.index
+2247582295.index
+1865797976.index
