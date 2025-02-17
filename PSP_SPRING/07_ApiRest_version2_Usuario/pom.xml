@@ -9,9 +9,9 @@
 		<relativePath/>
 	</parent>
 	<groupId>com.ejemplos</groupId>
-	<artifactId>ApiRest_version02</artifactId>
+	<artifactId>07_ApiRest_version02</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ApiRest_version01</name>
+	<name>07_ApiRest_version01</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

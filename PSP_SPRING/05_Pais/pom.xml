@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ejemplos.Pais</groupId>
-	<artifactId>Pais</artifactId>
+	<artifactId>05_Pais</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Pais</name>
+	<name>05_Pais</name>
 	<description>Actividad_CRUD_FernandoChang</description>
 	<url/>
 	<licenses>
