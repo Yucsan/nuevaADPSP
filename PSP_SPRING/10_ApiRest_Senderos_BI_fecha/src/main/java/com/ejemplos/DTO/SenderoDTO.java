@@ -14,7 +14,7 @@ public class SenderoDTO {
 	private String nombre;
 	private Integer distancia;
 	private String dificultad;
-	@JsonFormat(shape= JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")
+	@JsonFormat(shape= JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy", timezone = "Europe/Paris")
 	private Date fecha;
 	private String municipioNombre; // atencion a esto
 	//nombre entidad+nombreDelAtributo
