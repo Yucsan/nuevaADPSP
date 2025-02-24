@@ -59,7 +59,7 @@ public class Test_JAXBSerializacion2 {
 		
 		FileOutputStream fos2 = new FileOutputStream(PAIS_DAT_FILE);
 		//guardamos el objeto serializacion en un documento xml
-		marshaller.marshal(pais, fos2);
+		marshaller2.marshal(pais, fos2);
 		fos2.close();
 		
 		
